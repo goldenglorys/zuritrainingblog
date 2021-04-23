@@ -7,5 +7,5 @@ class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     body = models.TextField()
 
-    def __init__(self):
+    def __str__(self):
         return self.title
