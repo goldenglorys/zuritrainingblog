@@ -22,7 +22,7 @@
 
 ### Create superadmin
 
-`python createsuperadmin`
+`python createsuperuser`
 
 ### Start the server locally using this command
 
