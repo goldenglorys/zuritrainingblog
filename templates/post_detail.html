@@ -5,4 +5,13 @@
 </div>
 <p><a href="{% url 'post_edit' post.pk %}">+ Edit Blog Post</a></p>
 <p><a href="{% url 'post_delete' post.pk %}">+ Delete Blog Post</a></p>
+<p><a href="{% url 'comment_new' %}">+ Add Comment</a></p>
+<div>
+  {% for comment in post.comments.all %}
+  <p>
+    <span> {{ comment.author }} &middot; </span>
+    {{ comment }}
+  </p>
+  {% endfor %}
+</div>
 {% endblock %}
