@@ -1,6 +1,6 @@
 # Django Blog App
 
-[Preview Live On Heroku]('https://zuri-django-blog-app.herokuapp.com/')
+[Preview Live On Heroku](https://zuri-django-blog-app.herokuapp.com/)
 
 ## Installation
 
